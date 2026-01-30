@@ -1,3 +1,10 @@
+"""
+Script: 02_analyze_co_strikes.py
+Description: Pulls wildlife strikes data for Colorado airports.
+Author: Levi Altringer
+Date: 2026-01-27
+"""
+
 import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
